@@ -4,14 +4,19 @@
   <artifactId>Br.com.inter</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+      <properties>
+        <maven.compiler.source>23</maven.compiler.source>
+        <maven.compiler.target>23</maven.compiler.target>
+    </properties>
+  
+  
   <dependencies>
   
-  <dependency>
-  
-  <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+ <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>3.141.59</version>
+    <version>4.45.0</version>
     <scope>compile</scope>
 </dependency>
 
